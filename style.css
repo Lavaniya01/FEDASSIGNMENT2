@@ -209,3 +209,16 @@ button {
   border: none;
   border-radius: 20px;
   }
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+.flex-container2 img {
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+}
