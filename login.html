@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel = "stylesheet" href = "style.css">
-    <img src = "logo.png" alt = "craigslist logo" class="logo2">
+    <link rel="stylesheet" href="style.css">
+    <img src="logo.png" alt="craigslist logo" class="logo2">
 </head>
 <body>
     <div class="container2">
         <h1>Login</h1>
 
-        <form action="#">
+        <form id="loginForm" action="#">
             <br>
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" placeholder="Email Address">
@@ -19,12 +19,20 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" placeholder="Password">
             <br>
-            <button type="submit">Login</button>
+            <button type="button" onclick="redirectToHomepage()">Login</button>
         </form>
     </div>
-    <footer> 
+
+    <footer>
         <p>Copyright 2023</p>
-      </footer>
+    </footer>
+
+    <script>
+        function redirectToHomepage() {
+            // You can replace "homepage.html" with the actual URL of your homepage
+            window.location.href = "index.html";
+        }
+    </script>
 </body>
 </html>
 
