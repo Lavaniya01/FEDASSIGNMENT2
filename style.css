@@ -222,3 +222,12 @@ button {
   height: 150px;
   margin: 10px;
 }
+
+.image-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image-container img {
+  max-width: 500px;
+}
