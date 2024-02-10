@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Details</title>
+  <link rel="stylesheet" href="payment-details.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Payment Details</h1>
+    <form action="#" method="post">
+      <div class="card-holder-details">
+        <label for="cardholder-name">Cardholder Name:</label>
+        <input type="text" id="cardholder-name" name="cardholder-name" required>
+      </div>
+      <div class="card-details">
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number" required maxlength="16">
+        <div class="card-details-sub">
+          <label for="expiry-date">Expiry Date:</label>
+          <input type="text" id="expiry-date" name="expiry-date" required placeholder="MM/YY">
+          <label for="cvc">CVC:</label>
+          <input type="password" id="cvc" name="cvc" required maxlength="3">
+        </div>
+      </div>
+      <div class="billing-address">
+        <h3>Billing Address</h3>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+        <label for="postal-code">Postal Code:</label>
+        <input type="text" id="postal-code" name="postal-code" required>
+      </div>
+      <button type="button" onclick="redirectToOrderPage()">Pay</button>
+    </form>
+  </div>
+</body>
+</html>
+<script>
+    function redirectToOrderPage() {
+
+        window.location.href = "completedpayment.html";
+    }
+</script>
