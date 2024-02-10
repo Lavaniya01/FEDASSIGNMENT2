@@ -223,11 +223,12 @@ button {
   margin: 10px;
 }
 
-.image-container {
+#container2 {
   text-align: center;
   margin: 0 auto;
+  width: 100%;
 }
 
-.image-container img {
-  max-width: 500px;
+#centered-text {
+  font-size: 25px;
 }

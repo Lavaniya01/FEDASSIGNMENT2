@@ -19,9 +19,16 @@
         
             <label for="contact">Contact No:</label>
             <input type="text" id="contact" name="contact"><br>
-            <button type="submit">Post!</button>
+            <button type="button" onclick="redirectToPostCreated()">Post!</button>
           </form>
     </div>
     <footer> 
         <p>Copyright 2023</p>
       </footer>
+
+      <script>
+        function redirectToPostCreated() {
+
+            window.location.href = "postcreated.html";
+        }
+    </script>
