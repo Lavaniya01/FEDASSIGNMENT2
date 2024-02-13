@@ -14,3 +14,5 @@ Lavaniya - index.html, createapost.html, completedpayment.html, diamond ring.htm
 Julian - login.js, index.html, homepage after login.html, pointpages.html, rewards.js
 
 https://github.com/Lavaniya01/FEDASSIGNMENT2.git - github link
+
+https://drive.google.com/file/d/1ti2WfKQK0av9UsiGN3On8ZWm_m6c_13E/view?usp=sharing - video link
