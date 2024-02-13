@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Points Redemption</title>
+    <style>
+      body {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #555;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #8e44ad;
+      }
+      p {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      select,
+      input[type="number"] {
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #777;
+        color: #fff;
+      }
+      button[type="submit"] {
+        font-size: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #8e44ad;
+        color: #fff;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background-color: #773399;
+      }
+      #reward-image {
+  border: 10px solid #773399;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Points Redemption</h1>
+      <p>You have 120 points available to redeem.</p>
+      <form>
+        <label for="reward-select">Select a reward:</label>
+        <select id="reward-select">
+          <option value="10">$2 McDonald's Coupon (10 points)</option>
+          <option value="25">$5 Amazon Gift Card (25 points)</option>
+          <option value="50">$8 Starbucks Gift Card (40 points)</option>
+          <option value="100">$25 Starbucks Gift Card (100 points)</option>
+        </select>
+        <br />
+        <img id = "reward-image" src="images/mcd.jpg" alt="Vouchers"
+        height="500px" width="500px" margin="0" auto />
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1" max="10" />
+        <br />
+        <button type="submit">Redeem Points</button>
+      </form>
+    </div>
+  </body>
+  <script src="rewards.js"></script>
+</html>
