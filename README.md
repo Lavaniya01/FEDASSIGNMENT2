@@ -12,3 +12,5 @@ Contributions:
 Lavaniya - index.html, createapost.html, completedpayment.html, diamond ring.html, homepage after login.html, loading page.html, listings.html, login.html, paymentdetails.html, postcreated.html, lottie.js, javascript.js.
 
 Julian - login.js, index.html, homepage after login.html, pointpages.html, rewards.js
+
+https://github.com/Lavaniya01/FEDASSIGNMENT2.git - github link
