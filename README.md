@@ -11,4 +11,4 @@ The lottie animation shows user the page is loading once they have logged in.
 Contributions:
 Lavaniya - index.html, createapost.html, completedpayment.html, diamond ring.html, homepage after login.html, loading page.html, listings.html, login.html, paymentdetails.html, postcreated.html, lottie.js, javascript.js.
 
-Julian - login.js, index.html, homepage after login.html, 
+Julian - login.js, index.html, homepage after login.html, pointpages.html, rewards.js
